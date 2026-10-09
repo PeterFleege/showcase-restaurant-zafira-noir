@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed inset-x-0 top-0 z-50 border-b bg-linear-180 from-olive-400/20 via-amber-50/50 to-stone-500/50 transition-all duration-500 ${
+        className={`fixed inset-x-0 top-0 z-50 border-b bg-linear-180 from-olive-700 via-amber-50/50 to-stone-800 transition-all duration-500 ${
           scrolled ? "py-3 backdrop-blur-xl" : "border-transparent py-6"
         }`}
       >
@@ -43,7 +43,7 @@ export default function Navbar() {
             {links.map((link) => (
               <a
                 key={link.id}
-                className={`hover:font-medium ${scrolled ? "text-black hover:text-amber-700" : "text-stone-950 hover:text-amber-500"}`}
+                className={`hover:font-medium hover:underline hover:decoration-amber-500 hover:decoration-2 underline-offset-4 ${scrolled ? "text-black" : "text-stone-950"}`}
                 href={`#${link.id}`}
               >
                 {link.label}
@@ -53,7 +53,7 @@ export default function Navbar() {
 
           <a
             href="#"
-            className={`text-stone-950 px-5 border-2 border-stone-950/30 hover:bg-olive-600/40 hover:text-white hover:border-amber-200 rounded-lg text-xs uppercase tracking-[0.22em] transition md:block ${scrolled ? "py-1.5" : "py-2.5"}`}
+            className={`text-stone-950 px-5 border-2 border-stone-950/30 bg-linear-180 from-olive-700/20 via-amber-50/50 to-stone-800/20 hover:bg-olive-600/40 hover:font-medium hover:border-amber-100 rounded-lg text-xs uppercase tracking-[0.22em] transition md:block ${scrolled ? "py-1.5" : "py-2.5"}`}
           >
             Book a table
           </a>
