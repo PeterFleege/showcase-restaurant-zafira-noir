@@ -18,8 +18,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed inset-x-0 top-0 z-50 border-b bg-linear-180 from-olive-700 via-amber-50/50 to-stone-800 transition-all duration-500 ${
-          scrolled ? "py-3 backdrop-blur-xl" : "border-transparent py-6"
+        className={`fixed inset-x-0 top-0 z-50 bg-linear-180 transition-all duration-500 ${
+          scrolled
+            ? "py-3 from-olive-600/20 via-amber-50/70 to-stone-800/30 backdrop-blur-xl"
+            : "from-olive-700/90 via-amber-50 to-stone-800/50 py-6"
         }`}
       >
         <div className="mx-auto flex max-w-360 items-center justify-between px-5 md:px-10">
@@ -53,7 +55,7 @@ export default function Navbar() {
 
           <a
             href="#"
-            className={`text-stone-950 px-5 border-2 border-stone-950/30 bg-linear-180 from-olive-700/20 via-amber-50/50 to-stone-800/20 hover:bg-olive-600/40 hover:font-medium hover:border-amber-100 rounded-lg text-xs uppercase tracking-[0.22em] transition md:block ${scrolled ? "py-1.5" : "py-2.5"}`}
+            className={`text-stone-950 px-5 border-2 border-stone-950/30 bg-linear-180 from-olive-700/20 via-amber-50/50 to-stone-800/20 rounded-lg text-xs uppercase tracking-[0.22em] transition md:block hover:bg-olive-600/40 hover:font-medium hover:px-4.25 hover:border-amber-100 ${scrolled ? "py-1.5" : "py-2.5"}`}
           >
             Book a table
           </a>
