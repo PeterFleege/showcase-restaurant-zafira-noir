@@ -63,7 +63,7 @@ export default function Reservation() {
   }
 
   return (
-    <section id="reserve" className="px-5 py-28 md:px-10 md:py-40">
+    <section id="reserve" className="px-5 py-28 bg-stone-900 md:px-10 md:py-40">
       <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-[.85fr_1.15fr]">
         <Reveal>
           <p className="section-kicker">Reservations</p>
