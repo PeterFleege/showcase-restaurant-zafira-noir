@@ -1,3 +1,5 @@
+// src/components/content-sections/Story.tsx
+
 import Reveal from "@/components/functional/Reveal";
 
 export default function Story() {
