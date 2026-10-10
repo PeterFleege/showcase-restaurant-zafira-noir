@@ -199,8 +199,11 @@ function ReservationForm({
         <p className="text-[10px] italic text-paper leading-5">
           A request is not a final confirmation.
         </p>
-        <button type="submit" className="button-copper">
-          Request table <span>↗</span>
+        <button
+          type="submit"
+          className="button-copper text-[12px] p-4 rounded-md"
+        >
+          Request table
         </button>
       </div>
     </form>

@@ -103,9 +103,7 @@ body {
   gap: 15px;
   background: rgba(233, 218, 191, 0.782);
   color: var(--ink);
-  padding: 12px 15px;
   margin: 0 24px 0 0;
-  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   transition:

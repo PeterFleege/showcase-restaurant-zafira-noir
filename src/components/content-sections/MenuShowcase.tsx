@@ -29,14 +29,14 @@ export default function MenuShowcase() {
                   className={`group flex w-full items-baseline justify-between gap-6 border-t border-brass/20 py-7 text-left transition-all duration-700 ease-silk ${active === n ? "pl-4 opacity-100" : "opacity-45"}`}
                 >
                   <span>
-                    <span className="block font-display text-3xl md:text-4xl">
+                    <span className="block font-display text-2xl md:text-3xl lg:text-4xl">
                       {d.name}
                     </span>
                     <span className="mt-2 block text-sm text-parchment/60">
                       {d.note}
                     </span>
                   </span>
-                  <span className="font-display text-2xl text-brass">
+                  <span className="font-display min-w-10 text-xl lg:text-2xl text-brass">
                     {d.price} €
                   </span>
                 </button>

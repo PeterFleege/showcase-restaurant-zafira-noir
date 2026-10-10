@@ -26,25 +26,6 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="mb-5 font-display text-2xl italic text-amber-500">
-            Opening hours
-          </h3>
-          <dl className="space-y-1 text-parchment/70">
-            <div className="flex justify-between gap-6">
-              <dt>Tuesday to Thursday</dt>
-              <dd>17:30 – 23:00</dd>
-            </div>
-            <div className="flex justify-between gap-6">
-              <dt>Friday and Saturday</dt>
-              <dd>17:00 – 00:30</dd>
-            </div>
-            <div className="flex justify-between gap-6">
-              <dt>Sunday and Monday</dt>
-              <dd>Closed</dd>
-            </div>
-          </dl>
-        </div>
-        <div>
-          <h3 className="mb-5 font-display text-2xl italic text-amber-500">
             Get in touch
           </h3>
           <p className="leading-relaxed text-parchment/70">
@@ -65,10 +46,30 @@ export default function Footer() {
             <a href="#" className="link-line">
               Instagram
             </a>
+            <br />
             <a href="#" className="link-line">
               Facebook
             </a>
           </p>
+        </div>
+        <div>
+          <h3 className="mb-5 font-display text-2xl italic text-amber-500">
+            Opening hours
+          </h3>
+          <dl className="space-y-1 text-parchment/70">
+            <div className="flex justify-between gap-3">
+              <dt>Tuesday to Thursday</dt>
+              <dd>17:30 – 23:00</dd>
+            </div>
+            <div className="flex justify-between gap-3">
+              <dt>Friday and Saturday</dt>
+              <dd>17:00 – 00:30</dd>
+            </div>
+            <div className="flex justify-between gap-3">
+              <dt>Sunday and Monday</dt>
+              <dd>Closed</dd>
+            </div>
+          </dl>
         </div>
       </div>
       <p
