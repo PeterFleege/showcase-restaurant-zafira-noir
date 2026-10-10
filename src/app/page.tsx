@@ -4,6 +4,7 @@ import Navbar from "@/components/navigation/Navbar";
 import Hero from "@/components/content-sections/Hero";
 import Story from "@/components/content-sections/Story";
 import MenuShowcase from "@/components/content-sections/MenuShowcase";
+import Gallery from "@/components/content-sections/Gallery";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Story />
       <MenuShowcase />
+      <Gallery />
       {/* <div className="h-[3000px] flex flex-col">
         <img
           src="https://cdn.pixabay.com/photo/2020/06/30/15/03/table-5356682_1280.jpg"
