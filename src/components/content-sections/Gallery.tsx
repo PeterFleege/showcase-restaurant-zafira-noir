@@ -68,6 +68,9 @@ export default function Gallery() {
                 className="transition-transform duration-1400 ease-silk group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-ink/30 transition-opacity duration-700 group-hover:opacity-0" />
+              <figcaption className="absolute inset-x-0 top-0 -translate-y-4 bg-linear-to-b from-ink/90 to-transparent p-5 font-display text-2xl italic opacity-0 transition-all duration-700 ease-silk group-hover:translate-y-0 group-hover:opacity-100">
+                {g.title}
+              </figcaption>
               <figcaption className="absolute inset-x-0 bottom-0 translate-y-4 bg-linear-to-t from-ink/90 to-transparent p-5 font-display text-xl italic opacity-0 transition-all duration-700 ease-silk group-hover:translate-y-0 group-hover:opacity-100">
                 {g.description}
               </figcaption>
