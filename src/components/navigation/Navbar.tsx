@@ -30,7 +30,7 @@ export default function Navbar() {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
     };
-    const mq = window.matchMedia("(min-width: 48rem)"); // Tailwind's md
+    const mq = window.matchMedia("(min-width: 64rem)"); // Tailwind's md
     const onChange = (e: MediaQueryListEvent) => {
       if (e.matches) setOpen(false);
     };
@@ -116,7 +116,7 @@ export default function Navbar() {
       {/* Mobile menu: a sibling of the header, NOT a child of it */}
       <div
         id="mobile-menu"
-        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-amber-50/95 backdrop-blur-2xl transition-all duration-300 md:hidden ${
+        className={`fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 bg-amber-50/95 backdrop-blur-2xl transition-all duration-300 lg:hidden ${
           open ? "visible opacity-100" : "invisible opacity-0"
         }`}
       >
