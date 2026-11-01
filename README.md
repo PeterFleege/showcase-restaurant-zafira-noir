@@ -1,7 +1,12 @@
 # Zafïra Noir
 
-An inviting, orange-accented landing page for a fictional restaurant in the center of Helsinki.
+![](./public/zafira-noir.png)
+
 Next.js (App Router) · TypeScript · Tailwind CSS v4 · PostgreSQL.
+
+## About
+
+An inviting, orange-accented landing page for a fictional restaurant in the center of Helsinki.
 
 ## Getting started
 
